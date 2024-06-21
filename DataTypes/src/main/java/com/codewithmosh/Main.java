@@ -1,12 +1,13 @@
 package com.codewithmosh;
 
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         int age = 24; //4 bytes
         String name = "Noel";
         name.replace("Noe", "WOO");
         System.out.println(name);
-
 
         System.out.println(
                 "Data Type\t  Size\t Min. Value\t Max. Value\t");
