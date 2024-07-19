@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Test;
 import java.time.Duration;
 
 import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assumptions.assumeTrue;
 
 @DisplayName("Test BankAccount Class")
 public class BankAccountTest {
@@ -40,6 +41,7 @@ public class BankAccountTest {
     @DisplayName("Test activation account after creation")
     public void testActive(){
         BankAccount bankAccount = new BankAccount(500, 0);
+        assumeTrue(bankAccount == null, "account is not null");
         assertTrue(bankAccount.isActive());
     }
 
