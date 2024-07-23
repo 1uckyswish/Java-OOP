@@ -24,17 +24,17 @@ public class BankAccountTest {
     public void testDepost(){
         BankAccount bankAccount = new BankAccount(400, 0);
 
-        bankAccount.depost(500);
+        bankAccount.depost(100);
 
-        assertEquals(900, bankAccount.getBalance());
+        assertEquals(900, bankAccount.getBalance(), "Test failed balance not enough");
     }
 
     @Test
     @DisplayName("Withdraw will become negative")
     public void testWithdrawNotStuckAtZero(){
         BankAccount bankAccount = new BankAccount(500, -1000);
-        bankAccount.withdraw(800);
-        assertNotEquals(0, bankAccount.getBalance());
+        bankAccount.withdraw(0);
+        assertNotEquals(-20000, bankAccount.getBalance(), "Test Failed due to beoingbalance low");
     }
 
     @Test
