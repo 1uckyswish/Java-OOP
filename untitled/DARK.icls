@@ -1,0 +1,18 @@
+<scheme name="Eclipse Dark" version="142" parent_scheme="Darcula">
+    <metaInfo>
+        <property name="created">2025-02-11</property>
+        <property name="ide">idea</property>
+        <property name="ideVersion">2023.2</property>
+        <property name="modified">2025-02-11</property>
+        <property name="originalScheme">Eclipse Dark</property>
+    </metaInfo>
+    <colors>
+        <option name="BACKGROUND" value="2D2D2D" />
+        <option name="FOREGROUND" value="CCCCCC" />
+        <option name="CARET_COLOR" value="FFCC00" />
+        <option name="STRING" value="A5C261" />
+        <option name="KEYWORD" value="CC7832" />
+        <option name="FUNCTION_CALL" value="FFC66D" />
+        <option name="COMMENT" value="7A7A7A" />
+    </colors>
+</scheme>
