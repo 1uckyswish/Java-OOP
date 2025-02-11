@@ -1,0 +1,18 @@
+<scheme name="Cobalt" version="142" parent_scheme="Darcula">
+    <metaInfo>
+        <property name="created">2025-02-11</property>
+        <property name="ide">idea</property>
+        <property name="ideVersion">2023.2</property>
+        <property name="modified">2025-02-11</property>
+        <property name="originalScheme">Cobalt</property>
+    </metaInfo>
+    <colors>
+        <option name="BACKGROUND" value="002240" />
+        <option name="FOREGROUND" value="FFFFFF" />
+        <option name="CARET_COLOR" value="FF9D00" />
+        <option name="STRING" value="E6DB74" />
+        <option name="KEYWORD" value="FFC600" />
+        <option name="FUNCTION_CALL" value="66D9EF" />
+        <option name="COMMENT" value="008080" />
+    </colors>
+</scheme>
