@@ -1,0 +1,18 @@
+<scheme name="Xcode" version="142" parent_scheme="Darcula">
+    <metaInfo>
+        <property name="created">2025-02-11</property>
+        <property name="ide">idea</property>
+        <property name="ideVersion">2023.2</property>
+        <property name="modified">2025-02-11</property>
+        <property name="originalScheme">Xcode</property>
+    </metaInfo>
+    <colors>
+        <option name="BACKGROUND" value="FFFFFF" />
+        <option name="FOREGROUND" value="000000" />
+        <option name="CARET_COLOR" value="0000FF" />
+        <option name="STRING" value="D14D00" />
+        <option name="KEYWORD" value="1E347B" />
+        <option name="FUNCTION_CALL" value="990000" />
+        <option name="COMMENT" value="008000" />
+    </colors>
+</scheme>
